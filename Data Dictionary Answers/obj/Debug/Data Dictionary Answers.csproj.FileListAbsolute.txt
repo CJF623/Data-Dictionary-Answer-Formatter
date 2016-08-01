@@ -7,3 +7,12 @@ c:\users\cfacchin\documents\visual studio 2015\Projects\Data Dictionary Answers\
 c:\users\cfacchin\documents\visual studio 2015\Projects\Data Dictionary Answers\Data Dictionary Answers\obj\Debug\Data Dictionary Answers.csproj.GenerateResource.Cache
 c:\users\cfacchin\documents\visual studio 2015\Projects\Data Dictionary Answers\Data Dictionary Answers\obj\Debug\Data Dictionary Answers.exe
 c:\users\cfacchin\documents\visual studio 2015\Projects\Data Dictionary Answers\Data Dictionary Answers\obj\Debug\Data Dictionary Answers.pdb
+C:\Users\cfacchin\Documents\GitHub\Data-Dictionary-Answer-Formatter\Data Dictionary Answers\bin\Debug\Data Dictionary Answers.exe.config
+C:\Users\cfacchin\Documents\GitHub\Data-Dictionary-Answer-Formatter\Data Dictionary Answers\obj\Debug\Data Dictionary Answers.exe
+C:\Users\cfacchin\Documents\GitHub\Data-Dictionary-Answer-Formatter\Data Dictionary Answers\obj\Debug\Data Dictionary Answers.pdb
+C:\Users\cfacchin\Documents\GitHub\Data-Dictionary-Answer-Formatter\Data Dictionary Answers\bin\Debug\Data Dictionary Answers.exe
+C:\Users\cfacchin\Documents\GitHub\Data-Dictionary-Answer-Formatter\Data Dictionary Answers\bin\Debug\Data Dictionary Answers.pdb
+C:\Users\cfacchin\Documents\GitHub\Data-Dictionary-Answer-Formatter\Data Dictionary Answers\obj\Debug\Data Dictionary Answers.csprojResolveAssemblyReference.cache
+C:\Users\cfacchin\Documents\GitHub\Data-Dictionary-Answer-Formatter\Data Dictionary Answers\obj\Debug\Data_Dictionary_Answers.Form1.resources
+C:\Users\cfacchin\Documents\GitHub\Data-Dictionary-Answer-Formatter\Data Dictionary Answers\obj\Debug\Data_Dictionary_Answers.Properties.Resources.resources
+C:\Users\cfacchin\Documents\GitHub\Data-Dictionary-Answer-Formatter\Data Dictionary Answers\obj\Debug\Data Dictionary Answers.csproj.GenerateResource.Cache

@@ -18,7 +18,7 @@ namespace Data_Dictionary_Answers
     {
         public static int answerCount = -1 ;
         public static string answersInput;
-        static string formattedAnswerTemplate = "{0}, {1} |";
+        static string formattedAnswerTemplate = "{0}, {1} | ";
         
         public Form1()
         {
@@ -35,7 +35,8 @@ namespace Data_Dictionary_Answers
             answerCount++;
             answersInput = AnswerInput.Text;
             string formattedAnswer = string.Format(formattedAnswerTemplate, answerCount, answersInput);
-            FormattedAnswers.Items.Add(formattedAnswer);
+            FormattedAnswers.Text += formattedAnswer;
+            //FormattedAnswers.Items.Add(formattedAnswer);
             AnswerInput.Clear();
   
         }
@@ -44,8 +45,8 @@ namespace Data_Dictionary_Answers
         {
             try
             {
-                string s1 = "";
-                foreach (object item in FormattedAnswers.Items) s1 += item.ToString() + "\r\n";
+                string s1 = FormattedAnswers.Text;
+                //foreach (object item in FormattedAnswers.Items) s1 += item.ToString() + "\r\n";
                 Clipboard.SetText(s1);
             }
             catch (Exception ex)
@@ -63,8 +64,14 @@ namespace Data_Dictionary_Answers
 
         private void button2_Click(object sender, EventArgs e)
         {
-            FormattedAnswers.Items.Clear();
+            //FormattedAnswers.Items.Clear();
+            FormattedAnswers.Clear();
             answerCount = -1;
+        }
+
+        private void richTextBox1_TextChanged_1(object sender, EventArgs e)
+        {
+
         }
     }
 }
