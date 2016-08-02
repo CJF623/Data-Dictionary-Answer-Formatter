@@ -18,7 +18,7 @@ namespace Data_Dictionary_Answers
     {
         public static int answerCount = -1 ;
         public static string answersInput;
-        static string formattedAnswerTemplate = "{0}, {1} | ";
+        static string formattedAnswerTemplateMiddle = "| {0}, {1} ";
         
         public Form1()
         {
@@ -32,12 +32,17 @@ namespace Data_Dictionary_Answers
 
         private void AddAnswer_Click(object sender, EventArgs e)
         {
+           
             answerCount++;
             answersInput = AnswerInput.Text;
-            string formattedAnswer = string.Format(formattedAnswerTemplate, answerCount, answersInput);
+            string formattedAnswer = string.Format(formattedAnswerTemplateMiddle, answerCount, answersInput);
+            if (answerCount == 0)
+            {
+                formattedAnswer = formattedAnswer.Substring(2);
+            }
             FormattedAnswers.Text += formattedAnswer;
-            //FormattedAnswers.Items.Add(formattedAnswer);
             AnswerInput.Clear();
+
   
         }
 
@@ -46,10 +51,9 @@ namespace Data_Dictionary_Answers
             try
             {
                 string s1 = FormattedAnswers.Text;
-                //foreach (object item in FormattedAnswers.Items) s1 += item.ToString() + "\r\n";
                 Clipboard.SetText(s1);
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 MessageBox.Show("Formatted Answers List Can't Be Blank");
 
